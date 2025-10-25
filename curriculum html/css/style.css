@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f0f0f0;
+}
+
+.contenedor {
+  display: flex;
+  width: 1100px;
+  margin: 30px auto;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.lateral {
+  width: 30%;
+  background: #cfe3f2;
+  padding: 20px;
+  text-align: center;
+}
+
+.lateral .foto {
+  width: 100px;
+  height: 100px;
+  background: #aaa;
+  border-radius: 50%;
+  margin: 0 auto 15px;
+}
+
+.lateral h2 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.puesto {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.lateral h3 {
+  margin-top: 20px;
+  margin-bottom: 8px;
+  font-size: 15px;
+  border-bottom: 1px solid #999;
+  padding-bottom: 3px;
+}
+
+.lateral ul {
+  list-style: none;
+  font-size: 13px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.lateral ul li {
+  margin-bottom: 5px;
+}
+
+.contenido {
+  width: 70%;
+  padding: 25px;
+}
+
+.contenido h2 {
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.item {
+  margin-bottom: 20px;
+}
+
+.item h4 {
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.item span {
+  display: block;
+  font-size: 12px;
+  color: #777;
+  margin-bottom: 5px;
+}
+
+.item p {
+  font-size: 13px;
+  color: #555;
+  line-height: 1.4;
+}

@@ -1,0 +1,70 @@
+h1{
+    text-align: center;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  border: 2px solid #ffffff;
+}
+
+th, td {
+  border: 2px solid #000000;
+  padding: 5px;
+  text-align: center;
+  vertical-align: top;
+}
+
+th {
+  background-color: #2c3e50;
+  color: white;
+}
+
+td.pati {
+  background-color: #ddd;
+  font-style: italic;
+}
+
+.entorns { background-color: #b1b463; }
+.sistemesemp { background-color: #39C0C4; }
+.programacio { background-color: #99D194; }
+.bases { background-color: #CAA0C6; }
+.ipo { background-color: #F67D84; }
+.disseny { background-color: #FDD132; }
+.dasp { background-color: #FCC9C8; }
+.lleng { background-color: #D2D3E8; }
+.sistemesinfo { background-color: #EEF0C9; }
+
+.split-cell {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: stretch;
+}
+
+.split-upper, .split-lower {
+  flex: 1;
+  padding: 4px;
+  border-bottom: 1px solid #000;
+  text-align: center;
+}
+
+.split-lower {
+  border-bottom: none;
+}
+
+.pati {
+  background-color: #ddd;
+  font-style: italic;
+}
